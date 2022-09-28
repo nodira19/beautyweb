@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Manrope', sans-serif;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background: #EBF3F5;
+}
+nav{
+    background: #FCFCFC;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-1{
+    width: 35%;
+    align-items: center;
+    display: flex;
+}
+.nav-1 img{
+    margin-left: 20px;
+    height: 35px;
+    object-fit: cover;
+}
+.nav-2{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+.nav-2 ul{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.nav-2 ul a{
+    color: #141414;
+}
+.nav-2 ul a:hover{
+    color: #5C8692;
+}
+.nav-2 button{
+    margin-left: 60px;
+    padding: 19px 30px 19px 50px;
+    background: #5C8692;
+    border: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav-2 button:hover{
+    background-color: #4f7984;
+    box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.5);
+}
+/* Header */
+.header{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 885px;
+    background: #EBF3F5;
+}
+.box-1{
+    margin-left: 80px;
+    padding: 80px 0px 0px 0px;
+    height: 600px;
+    width: 45%;
+}
+.box-1 div{
+    display: flex;
+    align-items: center;
+}
+.box-1 div img{
+    width: 22px;
+    height: 22px;
+}
+.box-1 h1{
+    margin-top: 10px;
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: 0.66px;
+    color: #141414;
+}
+.box-1 p{
+    margin-top: 10px;
+    width: 463px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #555555;
+}
+.box-1 button{
+    margin-top: 10px;
+    padding: 18px 32px;
+    background: #5C8692;
+    border: 0px;
+}
+.box-2{
+    width: 50%;
+    position: relative;
+    align-self: center;
+}
+.box-2 div{
+    margin-left: 50px;
+    width: 592px;
+    height: 645px;
+    border: 10px solid #5C8692;
+}
+.box-2 img{
+    position: absolute;
+    top: 35px;
+}
